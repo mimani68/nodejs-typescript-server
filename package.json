@@ -1,0 +1,25 @@
+{
+  "name": "express-typescrit-webpack",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "author": "mahdi imani",
+  "scripts": {
+    "start": "tsc & node ./app.js ",
+    "start-nodemon": "tsc & nodemon ./app.js ",
+    "dev": "NODE_ENV=development nodemon ./app.js",
+    "AIO-start": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development & node ./dist-AIO/user-app.microservice.bundle.js",
+    "AIO-build": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/body-parser": "1.16.8",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/errorhandler": "0.0.32",
+    "@types/method-override": "0.0.31",
+    "@types/morgan": "^1.7.35",
+    "nodemon": "^1.12.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.6.1"
+  }
+}

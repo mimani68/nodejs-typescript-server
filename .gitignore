@@ -1,0 +1,40 @@
+# Created by caring
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+# build/Release
+
+# Dependency directories
+node_modules
+
+# video
+video
+
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# IDE
+.idea
+
+# visual studio code IDE setiing
+.vscode
