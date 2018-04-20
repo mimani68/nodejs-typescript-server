@@ -1,15 +1,15 @@
 {
-  "name": "express-typescrit-webpack",
-  "description": "",
-  "version": "1.0.0",
+  "name": "typescript-webpack",
+  "description": "use webpack for bundle final typescript project",
+  "version": "1.0.1",
   "private": false,
   "author": "mahdi imani",
   "scripts": {
     "start": "tsc & node ./app.js ",
     "start --nodemon": "tsc & nodemon ./app.js ",
     "dev": "NODE_ENV=development nodemon ./app.js",
-    "AIO-start": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development & node ./dist-AIO/user-app.microservice.bundle.js",
-    "AIO-build": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development"
+    "aio-start": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development & node ./dist-AIO/user-app.microservice.bundle.js",
+    "aio-build": "tsc & webpack --entry ./dist/app.js --output-filename user-app.microservice.bundle.js --output-path ./dist-AIO --mode development"
   },
   "dependencies": {},
   "devDependencies": {

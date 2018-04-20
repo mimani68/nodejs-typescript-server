@@ -1,5 +1,5 @@
-import { user } from "./controller/user/user.class";
-import { config } from "./config/server.config";
+import { user } from './controller/user/user.class';
+import { config } from './config/server.config';
 
 /*
  *
@@ -11,6 +11,6 @@ import { config } from "./config/server.config";
  */
 // import * as fs from 'fs';
 
-let e = new user('mahdi', 'imani');
+let e = new user('user one', 'last name goes here');
 e.showName();
 console.log(`server run on port ${ config.port }`);
