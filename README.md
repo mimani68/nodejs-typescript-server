@@ -1,3 +1,3 @@
-# nodejs typescript api server
+# nodejs typescript standalone
 
-enjoy web api server with strong type defenition.
+enjoy single project use typescript for strong typing in object oriented model project.
