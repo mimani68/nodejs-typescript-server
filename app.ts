@@ -13,4 +13,6 @@ import { config } from './config/server.config';
 
 let e = new user('user one', 'last name goes here');
 e.showName();
+
+// better to use environment variable like process.env.url
 console.log(`server run on port ${ config.port }`);
